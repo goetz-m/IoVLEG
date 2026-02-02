@@ -15,7 +15,7 @@ import seaborn as sns
 
 CONFIG = {
     # 请修改为您实际的路径
-    'dataset_dir': r'F:\Phd\Third\Work\IoV修改\Dataset\DDoS_Multi', 
+    'dataset_dir': r'', 
     'tfrecord_dir': r'.\fed_iov_tfrecord_simple', # 修改文件夹名以防与旧数据混淆
     'train_tfrecord_name': 'train_data.tfrecords',
     'test_tfrecord_name': 'test_data.tfrecords',
