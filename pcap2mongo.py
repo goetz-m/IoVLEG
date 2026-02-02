@@ -114,7 +114,7 @@ def normalize_padding(flow,max_pkts_limit=50):
 
 
 if __name__=='__main__':
-    file_path = '/home/tyd/cnn/DDoS-Multi/ddos'
+    file_path = ''
     label_dic = {'Benign':0,'MSSQL':1, 'NetBIOS':2, 'LDAP':3, 'SYN':4,'UDP':5}
     #csv_path = '/home/tyd/cnn/DDoS-Multi/csv_up'
     #file_path = ['/home/tyd/cnn/DDoS-Multi/ddos/UDP.pcap','/home/tyd/cnn/DDoS-Multi/ddos/NetBIOS.pcap']
